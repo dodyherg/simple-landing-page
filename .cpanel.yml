@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/dodyhid/public_html/devops.dodyh.id
+    - export DEPLOYPATH=/home/dodyhid/devops/
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp style.css $DEPLOYPATH
